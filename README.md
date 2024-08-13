@@ -1,10 +1,9 @@
 # Sales-Forecasting
 
 ## Authors
-
-Rudra Panch, IIT Madras (Main Contributor)
-Rachit Kumar, IIT Madras
-Raul Om Deepak, IIT Madras
+-Rudra Panch, IIT Madras (Main Contributor)
+-Rachit Kumar, IIT Madras
+-Raul Om Deepak, IIT Madras
 
 ## FB Prophet
 If `plotly` and `prophet` are not pre-installed, run this piece of code at the beginning.
@@ -17,7 +16,7 @@ Download the excel sheet `Groceries_Sales.xlsx` provided under the `FB_Prophet` 
 ### Extracting and Visualizing data
 
 We make a lineplot of the data in `Groceries_Sales.xlsx` to visualize the kind of data we have been provided with. We can see a seasonality in the data with some peaks occuring every few months.
-![Data Lineplot](lineplot.png)
+![Data Lineplot](images/lineplot.png)
 
 To decide whether this model is an additive or multiplicative one, we can use the `visualize_data` function. Run the code to see the plots. A few lines later, the `bar_plot_data` function can also be found to see the weekly averaged and yearly averaged data on a bar plot
 
@@ -26,7 +25,7 @@ Next with the funtions `setting_up_data` and `extract_data`, the data is extract
 ### Modelling using Prophet
 
 We rename data to `ds` and sales to `y`. This step is important for further purposes. We split the data into training and testing sets. We do this by setting an end date for the training data and everything after the end data comes under the test data. This is the plot for reference, where the blue region represents the training data and the red region, the testing region. 
-![Training and testing data plot](Train_and_test_plot.png)
+![Training and testing data plot](images/Train_and_test_plot.png)
 
 We set up the `model_Prophet` function to use the pretrained `FB Prophet` model available to forecast the sales of the future using the current data that we have. The Mean absolute percentage error is provided for better understanding of the accuracy. In this case, it turns out to be around `1.29`
 
