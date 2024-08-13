@@ -1,9 +1,9 @@
 # Sales-Forecasting
 
 ## Authors
--Rudra Panch, IIT Madras (Main Contributor)
--Rachit Kumar, IIT Madras
--Raul Om Deepak, IIT Madras
+- Rudra Panch, IIT Madras (Main Contributor)
+- Rachit Kumar, IIT Madras
+- Raul Om Deepak, IIT Madras
 
 ## FB Prophet
 If `plotly` and `prophet` are not pre-installed, run this piece of code at the beginning.
