@@ -1,7 +1,7 @@
 # Sales-Forecasting
 
 ## Authors
-- Rudra Panch, IIT Madras (Main Contributor)
+- Rudra Panch, IIT Madras
 - Rachit Kumar, IIT Madras
 - Raul Om Deepak, IIT Madras
 
